@@ -1,4 +1,5 @@
-URxvt.font: xft:Roboto Mono for Powerline:bold:size=10
+URxvt.font: xft:RobotoMono Nerd Font:bold:size=11
+terminal.font: xft:RobotoMono Nerd Font:bold:size=11
 
 
 URxvt.letterSpace:0

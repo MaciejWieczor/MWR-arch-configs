@@ -21,5 +21,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
     " Jedi for functions
     Plug 'pappasam/coc-jedi', { 'do': 'yarn install --frozen-lockfile && yarn build', 'branch': 'main' }
-    
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}   
+    Plug 'norcalli/nvim-colorizer.lua'
+    Plug 'mhinz/vim-startify'
+
 call plug#end()
